@@ -1,10 +1,14 @@
-from Tkinter import *
-import Tkinter, Tkconstants, tkFileDialog
+from tkinter import *
+import tkinter
+import tkinter.constants as tkconstants
+import tkinter.filedialog as tkFileDialog
 from PIL import Image, ImageTk
-from ttk import Frame, Style, Button, Radiobutton
-import os, time, cv2
+from tkinter.ttk import Frame, Style, Button, Radiobutton
+import os
+import time
+import cv2
 import numpy as np
-import tkMessageBox as mbox
+import tkinter.messagebox as mbox
 from our_func_cvpr18 import our_func
 import tensorflow as tf
 
